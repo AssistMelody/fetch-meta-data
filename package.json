@@ -1,0 +1,28 @@
+{
+  "name": "fetch-meta-data",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jstoxml": "^5.0.0",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.1.0",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.2",
+    "image-downloader": "^4.3.0",
+    "jstoxml": "^7.0.1",
+    "ora": "^8.2.0",
+    "save-file": "^2.3.1",
+    "vite": "npm:rolldown-vite@latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3"
+  }
+}
